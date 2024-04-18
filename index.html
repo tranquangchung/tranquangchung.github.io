@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/icons/favicon.png" type="image/x-icon">
+    <title>Darshan Bajgain</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./custom_css/style.css">
+
+
+
+</head>
+
+
+<body class="bg" >
+
+    <!--JS particles bg-->
+    <div id="particles-bg"></div>
+
+    <!-- Navbar goes here -->
+
+    <nav class="sticky top-0 bg-gray-900 mx-auto z-50 shadow-lg py-2 max-w-screen-lg uppercase">
+        <!-- Main menu -->
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between md:justify-center">
+
+                <div class="flex justify-between items-center space-x-24">
+
+                    <div>
+                        <!-- Website Logo -->
+                        <a href="#home" class="flex items-center py-4 px-2 mx-1">
+                            <span
+                                class="font-semibold uppercase tracking-widest hover:text-green-600 text-gray-100 text-xl">
+                                </span>
+                        </a>
+                    </div>
+
+                    <!-- Primary Navbar items -->
+                    <div class="hidden md:flex items-center space-x-8">
+
+                        <a href="#home" class="flex flex-col items-center text-gray-100 hover:text-green-500">
+                            <i class="fas fa-home text-lg"></i>
+                            <span class="font-semibold">Home</span>
+                        </a>
+                        <a href="#education"
+                            class="flex flex-col items-center text-gray-100 hover:text-green-500 transition duration-300">
+                            <i class="fa-solid fa-user text-lg"></i>
+                            <span class="font-semibold">Education</span>
+                        </a>
+                        <a href="#publication"
+                            class="flex flex-col items-center text-gray-100 hover:text-green-500 transition duration-300">
+                            <i class="fa fa-book" aria-hidden="true"></i>
+                            <span class="font-semibold">Publications</span>
+                        </a>
+<!--                        <a href="#projects"-->
+<!--                            class="flex flex-col items-center text-gray-100 hover:text-green-500 transition duration-300">-->
+<!--                            <i class="fas fa-laptop-code text-lg"></i>-->
+<!--                            <span class="font-semibold">Projects</span>-->
+<!--                        </a>-->
+                        <a href="#contact"
+                            class="flex flex-col items-center text-gray-100 hover:text-green-500 transition duration-300">
+                            <i class="fas fa-envelope text-lg"></i>
+                            <span class="font-semibold">Contact</span>
+                        </a>
+
+<!--                        <a href="#" target="_blank"-->
+<!--                            class="flex flex-col items-center text-gray-100 hover:text-green-500 transition duration-300">-->
+<!--                            <i class="fa-solid fa-blog"></i>-->
+<!--                            <span class="font-semibold">Blog</span>-->
+<!--                        </a>-->
+
+                    </div>
+
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button class="outline-none mobile-menu-button">
+                        <svg class="w-6 h-6 text-gray-100 hover:text-green-500" x-show="!showMenu" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- mobile menu -->
+        <div class="hidden mobile-menu">
+            <ul class="p-4">
+
+                <li><a href="#home"
+                        class="flex flex-col items-center text-sm px-2 py-4 text-gray-100 hover:bg-green-500 hover:text-white font-semibold transition duration-300">
+                        <i class="fas fa-home text-lg mx-3"></i>
+                        <span>Home</span>
+                    </a></li>
+                <li><a href="#education"
+                        class="flex flex-col items-center text-sm px-2 py-4 text-gray-100 hover:bg-green-500 hover:text-white font-semibold transition duration-300">
+                        <i class="fa-solid fa-user text-lg mx-3"></i>
+                        <span>About</span>
+                    </a></li>
+                <li><a href="#projects"
+                        class="flex flex-col items-center text-sm px-2 py-4 text-gray-100 hover:bg-green-500 hover:text-white font-semibold transition duration-300">
+                        <i class="fas fa-laptop-code text-lg mx-3"></i>
+                        <span>Projects</span>
+                    </a></li>
+                <li><a href="#contact"
+                        class="flex flex-col items-center text-sm px-2 py-4 text-gray-100 hover:bg-green-500 hover:text-white font-semibold transition duration-300">
+                        <i class="fas fa-envelope text-lg mx-3"></i>
+                        <span>Contact</span>
+                    </a></li>
+<!--                <li><a href="#" target="_blank"-->
+<!--                        class="flex flex-col items-center text-sm px-2 py-4 text-gray-100 hover:bg-green-500 hover:text-white font-semibold transition duration-300">-->
+<!--                        <i class="fa-solid fa-blog"></i>-->
+<!--                        <span>Blog</span>-->
+<!--                    </a>-->
+<!--                </li>-->
+
+            </ul>
+        </div>
+
+    </nav>
+
+
+
+    <!-- Hero Section -->
+
+    <section id="home" class=" py-16 mx-auto">
+        <div class=" lg:py-6 container max-w-screen-lg mx-auto flex flex-col md:flex-row items-center mb-4 px-2 md:px-16">
+
+            <div class=" md:w-1/2 flex flex-col items-center">
+
+                <img src="assets/profile-pic.png" alt="Profile Image" class="py-2 rounded-full w-52 h-52 object-cover" />
+
+
+                <div class="flex flex-col items-center mx-auto">
+
+                    <h1 class="text-xl font-bold text-gray-100 p-2">Hi, I am Tran Quang Chung</h1>
+
+                    <p class="text-base lg:text-lg px-4 mt-2 text-center text-gray-200">
+                        Ph.D. Student at JAIST and NAIST (Japan)
+                    </p>
+
+                </div>
+
+
+<!--                <div class="my-6 flex items-center justify-center space-x-4">-->
+<!--                    <a href="#projects"-->
+<!--                        class="text-gray-100 font-semibold hover:text-green-500 hover:underline transition duration-300">-->
+<!--                        See Projects <i class="fas fa-arrow-right"></i>-->
+<!--                    </a>-->
+<!--                    <a href="#about"-->
+<!--                        class="bg-gray-900 px-4 py-2 text-white font-semibold hover:bg-green-500 hover:underline transition duration-300">-->
+<!--                        More Info<i class="fa-solid fa-circle-info fa-bounce fa-lg px-2"></i>-->
+<!--                    </a>-->
+<!--                </div>-->
+
+            </div>
+
+
+            <div class="md:w-1/2 p-4 text-center">
+
+                <div class="mb-6 py-4">
+                    <h3 class="text-xl font-semibold text-gray-100 mb-4">To have more information</h3>
+                    <a href="assets/cv/CV_tranquangchung.pdf" target="_blank" download
+                        class="bg-red-400 text-white py-2 px-4 hover:bg-green-500 transition duration-300">
+                        <i class="fa-sharp fa-solid fa-down-long fa-beat-fade px-2"></i>Download Resume
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--Education section-->
+<section id="education" class="py-12 ">
+    <h1 class="header_section">Education Background</h1>
+<ul>
+    <li style="--accent-color:#41516C">
+        <div class="date">2014-2019</div>
+        <div class="title">B.Sc. Computer Science, Hanoi University of Science and Technology</div>
+    </li>
+    <li style="--accent-color:#FBCA3E">
+        <div class="date">2019-2021</div>
+        <div class="title">M.Sc. Computer Science, Hanoi University of Science and Technology</div>
+        <div class="descr">Thesis Title: An Improved UNets Architecture and Its Applications</div>
+    </li>
+    <li style="--accent-color:#E24A68">
+        <div class="date">2022-2024/Mar</div>
+        <div class="title">Ph.D Studen, Japan Advanced Institute of Science and Technology (JAIST)</div>
+        <div class="descr">Thesis Title: Multimodal Speech Synthesis: Leveraging Diverse Sources of Text, Images, and Brain Signals.</div>
+    </li>
+    <li style="--accent-color:#1B5F8C">
+        <div class="date">2024/Mar-Now</div>
+        <div class="title">Ph.D Studen, Nara Institute of Science and Technology (NAIST)</div>
+        <div class="descr">Thesis Title: Multimodal Speech Synthesis: Leveraging Diverse Sources of Text, Images, and Brain Signals.</div>
+    </li>
+</ul>
+</section>
+    <!--Education section-->
+
+    <!--Publications section-->
+    <h1 class="header_section">Publication</h1>
+    <section id="publication">
+    <h2 class="sub_header_section">Journal Paper</h2>
+    <div class="list_item" >
+    <ol>
+        <li>[1] Ngoc, P. P., Quang, Chung Tran, & Chi, M. L. (n.d.). Improving few-shot multi-speaker text-to-speech adaptive-based with extracting mel-vector (EMV) for vietnamese. International Journal of Asian Language Processing, ja, null. https://doi.org/10.1142/S2717554523500042</li>
+        <li>[2] Ngoc, P. P., Quang, Chung Tran, & Chi, M. L. (2023). ADAPT-TTS: high-quality zero-shot multi-speaker text-to-speech adaptive-based for vietnamese. Journal of Computer Science and Cybernetics, 39(2), 159–173. https://vjs.ac.vn/index.php/jcc/article/view/18136</li>
+        <li>[3] Na, I. S., Chung Tran, Nguyen, D., & Dinh, S. (2020). Facial UV map completion for pose-invariant face recognition: a novel adversarial approach based on coupled attention residual UNets. Hum. Centric Comput. Inf. Sci., 10, 45. https://doi.org/10.1186/s13673-020-00250-w</li>
+    </ol>
+    </div>
+    <h2 class="sub_header_section">Conference Paper</h2>
+    <div class="list_item" >
+    <ol>
+        <li>[1] Chung Tran, Luong, C. M., & Sakti, S. (2024). Maintaining Personal Styles in Multilingual TTS with STEN Approach in Diffusion Framework. ASJ 2024.</li>
+        <li>[2] Chung Tran, Luong, C. M., & Sakti, S. (2023). STEN-TTS: Improving Zero-shot Cross-Lingual Transfer for Multi-Lingual TTS with Style-Enhanced Normalization Diffusion Framework. Proc. INTERSPEECH 2023, 4464–4468. https://doi.org/10.21437/Interspeech.2023-2243</li>
+        <li>[3] Phuong Pham Ngoc, Chung Tran, & Mai Luong Chi. (2022). Improving a few-shot multi-speaker Text-To-Speech adaptative-based with Extracting Mel-Vector (EMV) for Vietnamese. The 25th Conference of the O-COCOSDA.</li>
+        <li>[4] Chung Tran, Quang Minh Nguyen, Phuong Pham Ngoc, & Quoc Truong Do. (2021). Improving Speaker Verification in Noisy Environment Using DNN Classifier. The 15th IEEE-RIVF International Conference on Computing and Communication Technologies, 1–6.</li>
+        <li>[5] Phuong Pham Ngoc, Chung Tran, Truong Do Quoc, & Mai Luong Chi. (2021). A study on neural-network-based Text-to-Speech adaptation techniques for Vietnamese. The 24th Conference of the Oriental COCOSDA.</li>
+        <li>[6] Ngoc Phuong Pham, Chung Tran, Nguyen Quang Minh, & Do Quoc Truong. (2020). Improving prosodic phrasing of Vietnamese text-to-speech systems. Proceedings of the 7th International Workshop on Vietnamese Language and Speech Processing, 19–23. https://www.aclweb.org/anthology/2020.vlsp-1.4</li>
+        <li>[7] Chung Tran, Huyen, H. C., & Sang, D. V. (2020). A Novel Generative Model to Synthesize Face Images for Pose-invariant Face Recognition. 2020 International Conference on Multimedia Analysis and Pattern Recognition (MAPR), 1–6. https://doi.org/10.1109/MAPR49794.2020.9237763</li>
+        <li>[8] Sang, D. V., Chung Tran, Dung, N. D., & Na, I. S. (2020). Attention ResCUNet-GAN: A Novel Facial UV Map Completion for Pose-invariant Face Recognition. HCIS Workshop 2020.</li>
+    </ol>
+    </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-12 ">
+    <h1 class="header_section" >Contact</h1>
+    <div class="contact_info">
+        <p><i class="fas fa-envelope"></i><strong> Personal email:</strong> <a href="mailto:bktranquangchung@gmail.com">bktranquangchung@gmail.com</a></p>
+        <p><i class="fas fa-envelope"></i><strong> University email:</strong> <a href="mailto:tran.quang_chung.tq9@naist.ac.jp">tran.quang_chung.tq9@naist.ac.jp</a></p>
+        <p><i class="fas fa-home"></i><strong> Address:</strong> Takayama-cho, Ikoma-City, Nara 630, 0101, Japan</p>
+        <p><i class="fas fa-phone-alt"></i><strong> Phone:</strong> <a href="tel:+8180357038xx">+81 80 357038xx</a></p>
+        <p><i class="fab fa-github"></i><strong> Github:</strong> <a href="https://xxx" target="_blank">https://xxx</a></p>
+        <p><i class="fab fa-linkedin"></i><strong> Linkedin:</strong> <a href="https://xxx" target="_blank">https://xxx</a></p>
+    </div>
+    </section>
+
+    <!--Footer part-->
+
+    <footer class=" bg-gray-900 max-w-screen-lg text-white py-12 mx-auto mt-16">
+        <div class="container mx-auto px-4 flex flex-col items-center">
+
+            <h3 class="text-base font-semibold text-gray-100 mb-6">Quick Links:</h3>
+
+            <div class="w-full flex items-center justify-center space-x-4 uppercase">
+              
+                <a href="#home" class="text-sm flex flex-col items-center hover:text-green-500">
+                    <i class="fas fa-home text-base"></i>
+                    <span>Home</span>
+                </a>
+            </div>
+
+            <p class="mt-6 text-sm uppercase"> Tran Quang Chung &COPY;</p>
+
+        </div>
+    </footer>
+
+
+    <!--JS files-->
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script/particles.js"></script>
+
+
+    <script src="https://kit.fontawesome.com/8022519056.js" crossorigin="anonymous"></script>
+    <script src="script/navbar.js"></script>
+    <script src="script/smooth-scroll.js"></script>
+
+</body>
+
+</html>
