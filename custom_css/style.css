@@ -35,7 +35,6 @@
 
 
 .bg{
-
     background-color: #2D3748;
 }
 
@@ -257,6 +256,44 @@ ul li .descr::before {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.2); /* Subtle shadow for a 3D effect */
     margin-left: 5%; /* Left margin for spacing */
 }
+
+.introduction{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Stylish, readable font */
+    color: red; /* white */
+    text-align: left; /* Left aligns the text */
+    font-size: 18px; /* Larger font size for prominence */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2); /* Subtle shadow for a 3D effect */
+    margin-left: 5%; /* Left margin for spacing */
+}
+.introduction p{
+    text-align: center;
+    width: 150%;
+}
+.link_website:hover {
+    color: #4CAF50;
+    text-decoration: underline;
+}
+.awards_info {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 0 auto;
+}
+
+.awards_info p {
+    color: white;
+    margin: 10px 0;
+    font-size: 18px;
+    margin-left: 30%; /* Left margin for spacing */
+}
+.awards_info a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+.awards_info a:hover {
+    text-decoration: underline;
+}
+
 .contact_info {
     padding: 20px;
     border-radius: 8px;
