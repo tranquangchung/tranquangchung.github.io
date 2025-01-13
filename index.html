@@ -54,25 +54,38 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="pt-20 bg-gray-100">
-        <div class="container mx-auto flex flex-col items-center px-4 py-16">
-            <div class="w-full max-w-md text-center">
-                <img src="assets/profile-pic.png" alt="Chung Tran" class="rounded-full w-48 h-48 mx-auto">
-                <h1 class="text-3xl font-merriweather text-teal-600 mt-4">Hi, I am Tran Quang Chung</h1>
-                <p class="mt-2 text-gray-600">Ph.D. Student at JAIST and NAIST (Japan)</p>
-                <p class="text-gray-600">Graduate School of Information Science</p>
-                <p class="text-gray-600">Laboratory: Human-AI Interaction (HAI)</p>
-                <p class="mt-2 text-gray-600">
-                    More about HAI Lab:
-                    <a href="https://hai-lab.naist.jp/members.html" target="_blank" class="text-teal-600 underline">Click here</a>
-                </p>
-                <div class="mt-4">
-                    <a href="assets/cv/CV_tranquangchung.pdf" target="_blank" class="bg-teal-600 text-white px-4 py-2 rounded hover:bg-teal-700 transition">Download Resume</a>
-                </div>
-            </div>
+<section id="home" class="pt-20 bg-gray-100">
+    <div class="container mx-auto flex flex-col lg:flex-row items-center justify-center gap-x-8 px-4 py-16">
+        <!-- Profile Image -->
+        <div class="flex justify-center">
+            <img src="assets/profile-pic.png" alt="Photo of Tran Quang Chung" class="rounded-full w-48 h-48">
         </div>
-    </section>
+
+        <!-- Introduction Content -->
+        <div class="w-full lg:w-2/3 max-w-xl text-center lg:text-left">
+            <h1 class="text-3xl font-merriweather text-teal-600 mt-4">Hi, I am Chung Tran</h1>
+            <p class="mt-4 text-gray-600 text-justify mx-8 lg:mx-0 leading-relaxed">
+                Chung Tran received his B.Sc. in 2019 and M.Sc. in 2021 in Computer Science from the School of Information and Communication Technology, Hanoi University of Science and Technology <a href="https://soict.hust.edu.vn/en/" target="_blank" class="text-teal-600 underline">(HUST)</a>. In 2022, he was awarded a prestigious scholarship by the Japanese Ministry of Education, Culture, Sports, Science, and Technology (MEXT). He began his Ph.D. journey at the Japan Advanced Institute of Science and Technology <a href="https://www.jaist.ac.jp/english/" target="_blank" class="text-teal-600 underline">(JAIST)</a>, where he studied for 1.5 years before transferring to the Nara Institute of Science and Technology <a href="https://www.naist.jp/en/" target="_blank" class="text-teal-600 underline">(NAIST)</a> to complete his doctoral thesis. His research interests focus on the fields of speech processing, speech synthesis, and speech recognition.
+            </p>
+            <div class="mt-6">
+                <a href="assets/cv/CV_tranquangchung.pdf" target="_blank" class="inline-block transition">
+                    <span class="flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 16v4m0 0l-4-4m4 4l4-4m-4 4V4" />
+                        </svg>
+                        Download His Resume
+                    </span>
+                </a>
+            </div>
+            <p class="mt-3 text-gray-600">
+                More about his Lab:
+                <a href="https://hai-lab.naist.jp/members.html" target="_blank" class="text-teal-600 underline">Click here</a>
+            </p>
+        </div>
+    </div>
+</section>
+
+
 
     <!-- Education Section -->
     <section id="education" class="py-12 bg-white">
@@ -124,22 +137,22 @@
                 <h3 class="text-xl font-semibold text-teal-500 mb-4">Journal Papers</h3>
                 <ol class="list-decimal list-inside space-y-4">
                     <li>
+                        Na, I. S., <span class="text-teal-600">Chung Tran</span>, Nguyen, D., & Dinh, S. (2020).
+                        Facial UV map completion for pose-invariant face recognition: A novel adversarial approach based on coupled attention residual UNets.
+                        <em>Human-centric Computing and Information Sciences.</em>
+                        <a href="https://doi.org/10.1186/s13673-020-00250-w" class="text-teal-600 underline" target="_blank" rel="noopener noreferrer">DOI</a>
+                    </li>
+                    <li>
                         Ngoc, P. P., <span class="text-teal-600">Quang, Chung Tran</span>, & Chi, M. L. (n.d.).
                         Improving few-shot multi-speaker text-to-speech adaptive-based with extracting mel-vector (EMV) for Vietnamese.
                         <em>International Journal of Asian Language Processing.</em>
-                        <a href="https://doi.org/10.1142/S2717554523500042" class="text-teal-600 underline" target="_blank" rel="noopener noreferrer">DOI</a>
+                        <!--<a href="https://doi.org/10.1142/S2717554523500042" class="text-teal-600 underline" target="_blank" rel="noopener noreferrer">DOI</a>-->
                     </li>
                     <li>
                         Ngoc, P. P., <span class="text-teal-600">Quang, Chung Tran</span>, & Chi, M. L. (2023).
                         ADAPT-TTS: High-quality zero-shot multi-speaker text-to-speech adaptive-based for Vietnamese.
                         <em>Journal of Computer Science and Cybernetics, 39(2), 159–173.</em>
-                        <a href="https://vjs.ac.vn/index.php/jcc/article/view/18136" class="text-teal-600 underline" target="_blank" rel="noopener noreferrer">Access Paper</a>
-                    </li>
-                    <li>
-                        Na, I. S., <span class="text-teal-600">Chung Tran</span>, Nguyen, D., & Dinh, S. (2020).
-                        Facial UV map completion for pose-invariant face recognition: A novel adversarial approach based on coupled attention residual UNets.
-                        <em>Human-centric Computing and Information Sciences.</em>
-                        <a href="https://doi.org/10.1186/s13673-020-00250-w" class="text-teal-600 underline" target="_blank" rel="noopener noreferrer">DOI</a>
+                        <!--<a href="https://vjs.ac.vn/index.php/jcc/article/view/18136" class="text-teal-600 underline" target="_blank" rel="noopener noreferrer">Access Paper</a>-->
                     </li>
                 </ol>
             </div>
@@ -185,7 +198,7 @@
                         <span class="text-teal-600">Chung Tran</span>, Quang Minh Nguyen, Phuong Pham Ngoc, & Quoc Truong Do. (2021):
                         Improving Speaker Verification in Noisy Environment Using DNN Classifier.
                         <em>The 15th IEEE-RIVF International Conference on Computing and Communication Technologies, 1–6.</em>
-                        <a href="https://doi.org/10.1109/MAPR49794.2020.9237763" class="text-teal-600 underline" target="_blank" rel="noopener noreferrer">DOI</a>
+                        <!--<a href="https://doi.org/10.1109/MAPR49794.2020.9237763" class="text-teal-600 underline" target="_blank" rel="noopener noreferrer">DOI</a>-->
                     </li>
                     <li>
                         Phuong Pham Ngoc, <span class="text-teal-600">Chung Tran</span>, Truong Do Quoc, & Mai Luong Chi. (2021):
@@ -196,13 +209,13 @@
                         Ngoc Phuong Pham, <span class="text-teal-600">Chung Tran</span>, Nguyen Quang Minh, & Do Quoc Truong. (2020):
                         Improving prosodic phrasing of Vietnamese text-to-speech systems.
                         <em>Proceedings of the 7th International Workshop on Vietnamese Language and Speech Processing, 19–23.</em>
-                        <a href="https://www.aclweb.org/anthology/2020.vlsp-1.4" class="text-teal-600 underline" target="_blank" rel="noopener noreferrer">Access Paper</a>
+                        <!--<a href="https://www.aclweb.org/anthology/2020.vlsp-1.4" class="text-teal-600 underline" target="_blank" rel="noopener noreferrer">Access Paper</a>-->
                     </li>
                     <li>
                         <span class="text-teal-600">Chung Tran</span>, Huyen, H. C., & Sang, D. V. (2020):
                         A Novel Generative Model to Synthesize Face Images for Pose-invariant Face Recognition.
                         <em>2020 International Conference on Multimedia Analysis and Pattern Recognition (MAPR), 1–6.</em>
-                        <a href="https://doi.org/10.1109/MAPR49794.2020.9237763" class="text-teal-600 underline" target="_blank" rel="noopener noreferrer">DOI</a>
+                        <!--<a href="https://doi.org/10.1109/MAPR49794.2020.9237763" class="text-teal-600 underline" target="_blank" rel="noopener noreferrer">DOI</a>-->
                     </li>
                     <li>
                         Sang, D. V., <span class="text-teal-600">Chung Tran</span>, Dung, N. D., & Na, I. S. (2020):
@@ -229,7 +242,7 @@
                     <span class="text-teal-600 font-semibold mr-2">2020/Dec:</span> Third Rank for VLSP Competition for the machine translation task.
                 </li>
                 <li class="flex items-center">
-                    <span class="text-teal-600 font-semibold mr-2">2019/Nov:</span>First Prize in the Information Technology of the Vietnam Talent Program (<em>Nhân Tài Đất Việt</em>).<a href="https://vnmedia.vn/cong-nghe/201911/le-trao-giai-nhan-tai-dat-viet-2019-da-san-sang-27d531f/" target="_blank">Read more</a>.
+                    <span class="text-teal-600 font-semibold mr-2">2019/Nov:</span>First Prize in the Information Technology of the Vietnam Talent Program (<em>Nhân Tài Đất Việt</em>). <a href="https://vnmedia.vn/cong-nghe/201911/le-trao-giai-nhan-tai-dat-viet-2019-da-san-sang-27d531f/" target="_blank">Read more</a>
                 </li>
                 <li class="flex items-center">
                     <span class="text-teal-600 font-semibold mr-2">2019/Jan:</span> Top 1 in VietAI Machine Learning Class.
